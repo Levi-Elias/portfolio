@@ -852,6 +852,108 @@ button {
   color: var(--muted);
 }
 
+/* ===== HELPERS ===== */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.btn-wrapper .btn-outline {
+  text-decoration: none;
+}
+
+.section-pt-lg {
+  padding-top: 8rem;
+}
+
+.project-image-placeholder {
+  background: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+}
+
+.project-image-placeholder p {
+  color: #888;
+}
+
+/* ===== ABOUT IMAGE & CV ===== */
+.cv-wrapper {
+  margin-top: 3rem;
+}
+
+.cv-wrapper .btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-dual-collage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dual-img-wrapper {
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, z-index 0s, border-color 0.4s ease;
+  background: var(--bg-card);
+}
+
+.dual-img-wrapper:hover {
+  z-index: 10;
+  border-color: rgba(126, 255, 160, 0.4);
+}
+
+.dual-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  filter: grayscale(20%);
+}
+
+.dual-img-wrapper:hover img {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.dual-img-1 {
+  width: 55%;
+  aspect-ratio: 4/5;
+  left: 0;
+  top: 5%;
+  z-index: 2;
+  transform: rotate(-4deg);
+}
+
+.dual-img-1:hover {
+  transform: scale(1.02) rotate(0deg) translateY(-10px);
+}
+
+.dual-img-2 {
+  width: 60%;
+  aspect-ratio: 1/1;
+  right: 0;
+  bottom: 5%;
+  z-index: 1;
+  transform: rotate(3deg);
+}
+
+.dual-img-2:hover {
+  transform: scale(1.02) rotate(0deg) translateY(-10px);
+}
+
 /* ===== ANIMATIONS ===== */
 .anim-fade-up {
   opacity: 0;
