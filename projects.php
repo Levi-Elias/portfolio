@@ -162,7 +162,8 @@
               <span>PHP</span>
             </div>
             <div class="project-links">
-              <a href="#" class="link-live" target="_blank" rel="noopener noreferrer">
+              <a href="https://u240669.gluwebsite.nl/Utrechts-Archief/" class="link-live" target="_blank"
+                rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M15 3h6v6" />
@@ -171,7 +172,8 @@
                 </svg>
                 Live
               </a>
-              <a href="#" class="link-code" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Levi-Elias/Utrechts-Archief" class="link-code" target="_blank"
+                rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path
